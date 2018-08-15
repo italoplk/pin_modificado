@@ -114,7 +114,7 @@ bool PicYuv::create(x265_param* param, pixel *pixelbuf)
         m_picOrg[0] = m_picBuf[0] + m_lumaMarginY * m_stride + m_lumaMarginX;
     }
 
-       //@IDM
+       //@IDM2
                                 unsigned long long start_approx_add[3], end_approx_add[3];
                                // uint32_t numCuInWidth = (m_param->sourceWidth + m_param->maxCUSize - 1)  / m_param->maxCUSize;
                                // uint32_t numCuInHeight = (m_param->sourceHeight + m_param->maxCUSize - 1) / m_param->maxCUSize;
