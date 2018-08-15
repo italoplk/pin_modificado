@@ -1,0 +1,33 @@
+yuv  [info]: 1920x1080 fps 50000/1000 i420p8 frames 0 - 79 of 500
+raw  [info]: output file: /home/tom/intra-pin-memapprox/examples/x265_2.5/outputs/Cactus_1920x1080_50/videos/Cactus_1920x1080_50_qp37_0.0_1E-3.265
+x265 [info]: HEVC encoder version 2.5
+x265 [info]: build info [Linux][GCC 5.4.0][64 bit] 8bit
+x265 [info]: using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x265 [info]: Main profile, Level-4.1 (Main tier)
+x265 [info]: Slices                              : 1
+x265 [info]: frame threads / pool features       : 1 / none
+x265 [info]: Coding QT: max CU size, min CU size : 64 / 8
+x265 [info]: Residual QT: max TU size, max depth : 32 / 1 inter / 1 intra
+x265 [info]: ME / range / subpel / merge         : hex / 57 / 2 / 2
+x265 [info]: Keyframe min / max / scenecut       : disabled
+x265 [info]: Lookahead / bframes / badapt        : 20 / 0 / 0
+x265 [info]: b-pyramid / weightp / weightb       : 0 / 1 / 0
+x265 [info]: References / ref-limit  cu / depth  : 3 / on / on
+x265 [info]: Rate Control                        : CQP-37
+x265 [info]: tools: rd=3 rskip signhide tmvp strong-intra-smoothing deblock sao
+[1.2%] 1/80 frames, 0.01 fps, 25386.00 kb/s, eta 3:38:00  [2.5%] 2/80 frames, 0.01 fps, 13402.80 kb/s, eta 1:52:56  [3.8%] 3/80 frames, 0.02 fps, 9536.80 kb/s, eta 1:19:10  [5.0%] 4/80 frames, 0.02 fps, 7633.50 kb/s, eta 1:02:35  [6.2%] 5/80 frames, 0.02 fps, 6508.88 kb/s, eta 0:52:33  [7.5%] 6/80 frames, 0.03 fps, 5726.93 kb/s, eta 0:45:34  [8.8%] 7/80 frames, 0.03 fps, 5149.43 kb/s, eta 0:40:09  [10.0%] 8/80 frames, 0.03 fps, 4676.15 kb/s, eta 0:36:08  [11.2%] 9/80 frames, 0.04 fps, 4320.84 kb/s, eta 0:32:48  [12.5%] 10/80 frames, 0.04 fps, 4055.12 kb/s, eta 0:30:21  [13.8%] 11/80 frames, 0.04 fps, 3856.73 kb/s, eta 0:28:25  [15.0%] 12/80 frames, 0.04 fps, 3699.00 kb/s, eta 0:26:46  [16.2%] 13/80 frames, 0.04 fps, 3570.92 kb/s, eta 0:25:22  [17.5%] 14/80 frames, 0.05 fps, 3466.23 kb/s, eta 0:24:15  [18.8%] 15/80 frames, 0.05 fps, 3379.57 kb/s, eta 0:23:13  [20.0%] 16/80 frames, 0.05 fps, 3301.80 kb/s, eta 0:22:14  [21.2%] 17/80 frames, 0.05 fps, 3238.28 kb/s, eta 0:21:23  [22.5%] 18/80 frames, 0.05 fps, 3185.07 kb/s, eta 0:20:43  [23.8%] 19/80 frames, 0.05 fps, 3143.18 kb/s, eta 0:20:01  [25.0%] 20/80 frames, 0.05 fps, 3104.40 kb/s, eta 0:19:23  [26.2%] 21/80 frames, 0.05 fps, 3072.74 kb/s, eta 0:18:52  [27.5%] 22/80 frames, 0.05 fps, 3047.64 kb/s, eta 0:18:22  [28.8%] 23/80 frames, 0.05 fps, 3024.59 kb/s, eta 0:17:42  [30.0%] 24/80 frames, 0.05 fps, 3000.63 kb/s, eta 0:17:14  [31.2%] 25/80 frames, 0.05 fps, 2978.77 kb/s, eta 0:16:47  [32.5%] 26/80 frames, 0.05 fps, 2952.71 kb/s, eta 0:16:22  [33.8%] 27/80 frames, 0.06 fps, 2931.88 kb/s, eta 0:15:53  [35.0%] 28/80 frames, 0.06 fps, 2909.26 kb/s, eta 0:15:28  [36.2%] 29/80 frames, 0.06 fps, 2888.08 kb/s, eta 0:15:01  [37.5%] 30/80 frames, 0.06 fps, 2872.59 kb/s, eta 0:14:33  [38.8%] 31/80 frames, 0.06 fps, 2857.48 kb/s, eta 0:14:12  [40.0%] 32/80 frames, 0.06 fps, 2843.03 kb/s, eta 0:13:49  [41.2%] 33/80 frames, 0.06 fps, 2828.51 kb/s, eta 0:13:29  [42.5%] 34/80 frames, 0.06 fps, 2809.67 kb/s, eta 0:13:07  [43.8%] 35/80 frames, 0.06 fps, 2795.90 kb/s, eta 0:12:46  [45.0%] 36/80 frames, 0.06 fps, 2779.82 kb/s, eta 0:12:24  [46.2%] 37/80 frames, 0.06 fps, 2769.04 kb/s, eta 0:12:05  [47.5%] 38/80 frames, 0.06 fps, 2756.35 kb/s, eta 0:11:46  [48.8%] 39/80 frames, 0.06 fps, 2744.44 kb/s, eta 0:11:24  [50.0%] 40/80 frames, 0.06 fps, 2733.25 kb/s, eta 0:11:05  [51.2%] 41/80 frames, 0.06 fps, 2721.97 kb/s, eta 0:10:46  [52.5%] 42/80 frames, 0.06 fps, 2711.35 kb/s, eta 0:10:25  [53.8%] 43/80 frames, 0.06 fps, 2703.30 kb/s, eta 0:10:07  [55.0%] 44/80 frames, 0.06 fps, 2695.00 kb/s, eta 0:09:50  [56.2%] 45/80 frames, 0.06 fps, 2686.87 kb/s, eta 0:09:31  [57.5%] 46/80 frames, 0.06 fps, 2680.90 kb/s, eta 0:09:12  [58.8%] 47/80 frames, 0.06 fps, 2674.38 kb/s, eta 0:08:55  [60.0%] 48/80 frames, 0.06 fps, 2669.42 kb/s, eta 0:08:37  [61.2%] 49/80 frames, 0.06 fps, 2664.04 kb/s, eta 0:08:19  [62.5%] 50/80 frames, 0.06 fps, 2661.09 kb/s, eta 0:08:03  [63.8%] 51/80 frames, 0.06 fps, 2656.45 kb/s, eta 0:07:46  [65.0%] 52/80 frames, 0.06 fps, 2654.17 kb/s, eta 0:07:29  [66.2%] 53/80 frames, 0.06 fps, 2650.05 kb/s, eta 0:07:12  [67.5%] 54/80 frames, 0.06 fps, 2645.39 kb/s, eta 0:06:55  [68.8%] 55/80 frames, 0.06 fps, 2640.47 kb/s, eta 0:06:38  [70.0%] 56/80 frames, 0.06 fps, 2635.29 kb/s, eta 0:06:20  [71.2%] 57/80 frames, 0.06 fps, 2631.71 kb/s, eta 0:06:03  [72.5%] 58/80 frames, 0.06 fps, 2626.24 kb/s, eta 0:05:46  [73.8%] 59/80 frames, 0.06 fps, 2620.44 kb/s, eta 0:05:29  [75.0%] 60/80 frames, 0.06 fps, 2611.73 kb/s, eta 0:05:12  [76.2%] 61/80 frames, 0.06 fps, 2605.30 kb/s, eta 0:04:56  [77.5%] 62/80 frames, 0.06 fps, 2595.79 kb/s, eta 0:04:39  [78.8%] 63/80 frames, 0.06 fps, 2580.83 kb/s, eta 0:04:22  [80.0%] 64/80 frames, 0.07 fps, 2566.64 kb/s, eta 0:04:06  [81.2%] 65/80 frames, 0.07 fps, 2555.93 kb/s, eta 0:03:49  [82.5%] 66/80 frames, 0.07 fps, 2548.33 kb/s, eta 0:03:33  [83.8%] 67/80 frames, 0.07 fps, 2543.22 kb/s, eta 0:03:17  [85.0%] 68/80 frames, 0.07 fps, 2539.29 kb/s, eta 0:03:01  [86.2%] 69/80 frames, 0.07 fps, 2536.78 kb/s, eta 0:02:45  [87.5%] 70/80 frames, 0.07 fps, 2533.53 kb/s, eta 0:02:30  [88.8%] 71/80 frames, 0.07 fps, 2532.68 kb/s, eta 0:02:15  [90.0%] 72/80 frames, 0.07 fps, 2531.23 kb/s, eta 0:01:59  [91.2%] 73/80 frames, 0.07 fps, 2529.11 kb/s, eta 0:01:44  [92.5%] 74/80 frames, 0.07 fps, 2527.74 kb/s, eta 0:01:29  [93.8%] 75/80 frames, 0.07 fps, 2526.61 kb/s, eta 0:01:14  [95.0%] 76/80 frames, 0.07 fps, 2524.22 kb/s, eta 0:00:59  [96.2%] 77/80 frames, 0.07 fps, 2523.15 kb/s, eta 0:00:44  [97.5%] 78/80 frames, 0.07 fps, 2521.24 kb/s, eta 0:00:29  [98.8%] 79/80 frames, 0.07 fps, 2518.37 kb/s, eta 0:00:14  [100.0%] 80/80 frames, 0.07 fps, 2514.44 kb/s, eta 0:00:00                                                                                  x265 [info]: frame I:      1, Avg QP:34.00  kb/s: 24588.00  PSNR Mean: Y:34.686 U:37.705 V:39.201
+x265 [info]: frame P:     79, Avg QP:37.00  kb/s: 2223.33   PSNR Mean: Y:32.943 U:36.964 V:38.245
+x265 [info]: Weighted P-Frames: Y:0.0% UV:0.0%
+x265 [info]: consecutive B-frames: 100.0% 
+
+encoded 80 frames in 1188.23s (0.07 fps), 2502.89 kb/s, Avg QP:36.96, Global PSNR: 34.127
+
+add_approx 140229944019232 140229944019489
+
+add_approx 140229944019490 140229944019747
+
+set_write_ber 0.000000
+set_read_ber 0.001000
+remove_approx 140229944019232 140229944019489
+
+remove_approx 140229944019490 140229944019747

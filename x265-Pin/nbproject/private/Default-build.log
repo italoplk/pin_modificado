@@ -1,0 +1,65 @@
+[  1%] Building CXX object common/CMakeFiles/common.dir/primitives.cpp.o
+[  3%] Building CXX object common/CMakeFiles/common.dir/pixel.cpp.o
+[  5%] Building CXX object common/CMakeFiles/common.dir/dct.cpp.o
+[  7%] Building CXX object common/CMakeFiles/common.dir/ipfilter.cpp.o
+[  8%] Building CXX object common/CMakeFiles/common.dir/intrapred.cpp.o
+[ 10%] Building CXX object common/CMakeFiles/common.dir/loopfilter.cpp.o
+[ 12%] Building CXX object common/CMakeFiles/common.dir/constants.cpp.o
+[ 14%] Building CXX object common/CMakeFiles/common.dir/cpu.cpp.o
+[ 15%] Building CXX object common/CMakeFiles/common.dir/version.cpp.o
+[ 17%] Building CXX object common/CMakeFiles/common.dir/threading.cpp.o
+[ 19%] Building CXX object common/CMakeFiles/common.dir/threadpool.cpp.o
+[ 21%] Building CXX object common/CMakeFiles/common.dir/wavefront.cpp.o
+[ 22%] Building CXX object common/CMakeFiles/common.dir/md5.cpp.o
+[ 24%] Building CXX object common/CMakeFiles/common.dir/bitstream.cpp.o
+[ 26%] Building CXX object common/CMakeFiles/common.dir/yuv.cpp.o
+[ 28%] Building CXX object common/CMakeFiles/common.dir/shortyuv.cpp.o
+[ 29%] Building CXX object common/CMakeFiles/common.dir/picyuv.cpp.o
+[ 31%] Building CXX object common/CMakeFiles/common.dir/common.cpp.o
+[ 33%] Building CXX object common/CMakeFiles/common.dir/param.cpp.o
+[ 35%] Building CXX object common/CMakeFiles/common.dir/frame.cpp.o
+[ 36%] Building CXX object common/CMakeFiles/common.dir/framedata.cpp.o
+[ 38%] Building CXX object common/CMakeFiles/common.dir/cudata.cpp.o
+[ 40%] Building CXX object common/CMakeFiles/common.dir/slice.cpp.o
+[ 42%] Building CXX object common/CMakeFiles/common.dir/lowres.cpp.o
+[ 43%] Building CXX object common/CMakeFiles/common.dir/piclist.cpp.o
+[ 45%] Building CXX object common/CMakeFiles/common.dir/predict.cpp.o
+[ 47%] Building CXX object common/CMakeFiles/common.dir/scalinglist.cpp.o
+[ 49%] Building CXX object common/CMakeFiles/common.dir/quant.cpp.o
+[ 50%] Building CXX object common/CMakeFiles/common.dir/deblock.cpp.o
+[ 50%] Built target common
+[ 52%] Building CXX object encoder/CMakeFiles/encoder.dir/analysis.cpp.o
+[ 54%] Building CXX object encoder/CMakeFiles/encoder.dir/search.cpp.o
+[ 56%] Building CXX object encoder/CMakeFiles/encoder.dir/bitcost.cpp.o
+[ 57%] Building CXX object encoder/CMakeFiles/encoder.dir/motion.cpp.o
+[ 59%] Building CXX object encoder/CMakeFiles/encoder.dir/slicetype.cpp.o
+[ 61%] Building CXX object encoder/CMakeFiles/encoder.dir/frameencoder.cpp.o
+[ 63%] Building CXX object encoder/CMakeFiles/encoder.dir/framefilter.cpp.o
+[ 64%] Building CXX object encoder/CMakeFiles/encoder.dir/level.cpp.o
+[ 66%] Building CXX object encoder/CMakeFiles/encoder.dir/nal.cpp.o
+[ 68%] Building CXX object encoder/CMakeFiles/encoder.dir/sei.cpp.o
+[ 70%] Building CXX object encoder/CMakeFiles/encoder.dir/sao.cpp.o
+[ 71%] Building CXX object encoder/CMakeFiles/encoder.dir/entropy.cpp.o
+[ 73%] Building CXX object encoder/CMakeFiles/encoder.dir/dpb.cpp.o
+[ 75%] Building CXX object encoder/CMakeFiles/encoder.dir/ratecontrol.cpp.o
+[ 77%] Building CXX object encoder/CMakeFiles/encoder.dir/reference.cpp.o
+[ 78%] Building CXX object encoder/CMakeFiles/encoder.dir/encoder.cpp.o
+[ 80%] Building CXX object encoder/CMakeFiles/encoder.dir/api.cpp.o
+[ 82%] Building CXX object encoder/CMakeFiles/encoder.dir/weightPrediction.cpp.o
+[ 84%] Building CXX object encoder/CMakeFiles/encoder.dir/__/x265-extras.cpp.o
+[ 84%] Built target encoder
+Linking CXX shared library libx265.so
+[ 84%] Built target x265-shared
+[ 85%] Building CXX object CMakeFiles/cli.dir/input/input.cpp.o
+[ 87%] Building CXX object CMakeFiles/cli.dir/input/yuv.cpp.o
+[ 89%] Building CXX object CMakeFiles/cli.dir/input/y4m.cpp.o
+[ 91%] Building CXX object CMakeFiles/cli.dir/output/output.cpp.o
+[ 92%] Building CXX object CMakeFiles/cli.dir/output/reconplay.cpp.o
+[ 94%] Building CXX object CMakeFiles/cli.dir/output/yuv.cpp.o
+[ 96%] Building CXX object CMakeFiles/cli.dir/output/y4m.cpp.o
+[ 98%] Building CXX object CMakeFiles/cli.dir/output/raw.cpp.o
+[100%] Building CXX object CMakeFiles/cli.dir/x265.cpp.o
+Linking CXX executable x265
+[100%] Built target cli
+Linking CXX static library libx265.a
+[100%] Built target x265-static

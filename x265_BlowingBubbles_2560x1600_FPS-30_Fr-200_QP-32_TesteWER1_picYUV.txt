@@ -1,0 +1,103 @@
+
+add_approx 139953075975328 824633721216
+
+read_ber 0.000000
+write_ber 0.100000
+set_read_ber 0.000000
+set_write_ber 0.100000
+add_approx 139953075373216 824633721216
+
+read_ber 0.000000
+write_ber 0.100000
+set_read_ber 0.000000
+set_write_ber 0.100000
+add_approx 139953037309088 824633721216
+
+read_ber 0.000000
+write_ber 0.100000
+set_read_ber 0.000000
+set_write_ber 0.100000
+add_approx 139953036706976 824633721216
+
+read_ber 0.000000
+write_ber 0.100000
+set_read_ber 0.000000
+set_write_ber 0.100000
+add_approx 139953036104864 824633721216
+
+read_ber 0.000000
+write_ber 0.100000
+set_read_ber 0.000000
+set_write_ber 0.100000
+add_approx 139953035502752 824633721216
+
+read_ber 0.000000
+write_ber 0.100000
+set_read_ber 0.000000
+set_write_ber 0.100000
+add_approx 139953034900640 824633721216
+
+read_ber 0.000000
+write_ber 0.100000
+set_read_ber 0.000000
+set_write_ber 0.100000
+add_approx 139953034298528 824633721216
+
+read_ber 0.000000
+write_ber 0.100000
+set_read_ber 0.000000
+set_write_ber 0.100000
+add_approx 139953033696416 824633721216
+
+read_ber 0.000000
+write_ber 0.100000
+set_read_ber 0.000000
+set_write_ber 0.100000
+add_approx 139953033094304 824633721216
+
+read_ber 0.000000
+write_ber 0.100000
+set_read_ber 0.000000
+set_write_ber 0.100000
+add_approx 139953032266912 824633721216
+
+read_ber 0.000000
+write_ber 0.100000
+set_read_ber 0.000000
+set_write_ber 0.100000
+add_approx 139953031570592 824633721216
+
+read_ber 0.000000
+write_ber 0.100000
+set_read_ber 0.000000
+set_write_ber 0.100000
+add_approx 23168256 824633721216
+
+read_ber 0.000000
+write_ber 0.100000
+set_read_ber 0.000000
+set_write_ber 0.100000
+add_approx 23932992 824633721216
+
+read_ber 0.000000
+write_ber 0.100000
+set_read_ber 0.000000
+set_write_ber 0.100000
+add_approx 24694112 824633721216
+
+read_ber 0.000000
+write_ber 0.100000
+set_read_ber 0.000000
+set_write_ber 0.100000
+add_approx 25456992 824633721216
+
+read_ber 0.000000
+write_ber 0.100000
+set_read_ber 0.000000
+set_write_ber 0.100000
+add_approx 26220032 824633721216
+
+read_ber 0.000000
+write_ber 0.100000
+set_read_ber 0.000000
+set_write_ber 0.100000

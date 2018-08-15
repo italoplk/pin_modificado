@@ -1,0 +1,19 @@
+yuv  [info]: 1920x1080 fps 50000/1000 i420p8 frames 0 - 79 of 500
+raw  [info]: output file: /home/tom/mem_approx/pin-memapprox/examples/x265_2.5/outputs/Cactus_1920x1080_50_execucao_2_teste_resultados_invertidos/videos/Cactus_1920x1080_50_qp22_1E-7_1E-7.265
+x265 [info]: HEVC encoder version 2.5
+x265 [info]: build info [Linux][GCC 5.4.0][64 bit] 8bit
+x265 [info]: using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x265 [info]: Main profile, Level-4.1 (Main tier)
+x265 [info]: Slices                              : 1
+x265 [info]: frame threads / pool features       : 1 / none
+x265 [info]: Coding QT: max CU size, min CU size : 64 / 8
+x265 [info]: Residual QT: max TU size, max depth : 32 / 1 inter / 1 intra
+x265 [info]: ME / range / subpel / merge         : hex / 57 / 2 / 2
+x265 [info]: Keyframe min / max / scenecut / bias: 25 / 250 / 40 / 5.00
+x265 [info]: Lookahead / bframes / badapt        : 20 / 4 / 2
+x265 [info]: b-pyramid / weightp / weightb       : 1 / 1 / 0
+x265 [info]: References / ref-limit  cu / depth  : 3 / on / on
+x265 [info]: Rate Control                        : CQP-22
+x265 [info]: tools: rd=3 rskip signhide tmvp strong-intra-smoothing deblock sao
+[1.2%] 1/80 frames, 0.01 fps, 194554.41 kb/s, eta 3:01:37  [2.5%] 2/80 frames, 0.00 fps, 135638.61 kb/s, eta 5:11:30  [3.8%] 3/80 frames, 0.00 fps, 102072.53 kb/s, eta 7:18:40  [5.0%] 4/80 frames, 0.00 fps, 81403.80 kb/s, eta 8:28:15  [6.2%] 5/80 frames, 0.00 fps, 68816.80 kb/s, eta 9:03:02  [7.5%] 6/80 frames, 0.00 fps, 67752.13 kb/s, eta 9:28:34  [8.8%] 7/80 frames, 0.00 fps, 63129.49 kb/s, eta 10:19:56  [10.0%] 8/80 frames, 0.00 fps, 57670.45 kb/s, eta 10:38:36  [11.2%] 9/80 frames, 0.00 fps, 53573.96 kb/s, eta 10:50:23  [12.5%] 10/80 frames, 0.00 fps, 49904.96 kb/s, eta 10:52:49  [13.8%] 11/80 frames, 0.00 fps, 51256.30 kb/s, eta 10:53:21  [15.0%] 12/80 frames, 0.00 fps, 49804.61 kb/s, eta 11:05:05  [16.2%] 13/80 frames, 0.00 fps, 47496.92 kb/s, eta 11:06:45  [17.5%] 14/80 frames, 0.00 fps, 45568.43 kb/s, eta 11:04:18  [18.8%] 15/80 frames, 0.00 fps, 43730.70 kb/s, eta 10:56:35  [20.0%] 16/80 frames, 0.00 fps, 45044.35 kb/s, eta 10:49:42  C: Tool (or Pin) caused signal 11 at PC 0x7f1a2cc108b6
+Segmentation fault (core dumped)

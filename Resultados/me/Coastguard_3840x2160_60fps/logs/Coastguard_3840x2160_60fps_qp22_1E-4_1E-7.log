@@ -1,0 +1,104 @@
+yuv  [info]: 3840x2160 fps 60000/1000 i420p8 frames 0 - 79 of 996
+raw  [info]: output file: /home/tom/mem_approx/pin-memapprox/examples/x265_2.5/outputs/Coastguard_3840x2160_60fps/videos/Coastguard_3840x2160_60fps_qp22_1E-4_1E-7.265
+x265 [info]: HEVC encoder version 2.5
+x265 [info]: build info [Linux][GCC 5.4.0][64 bit] 8bit
+x265 [info]: using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x265 [info]: Main profile, Level-5.1 (Main tier)
+x265 [info]: Slices                              : 1
+x265 [info]: frame threads / pool features       : 1 / none
+x265 [info]: Coding QT: max CU size, min CU size : 64 / 8
+x265 [info]: Residual QT: max TU size, max depth : 32 / 1 inter / 1 intra
+x265 [info]: ME / range / subpel / merge         : hex / 57 / 2 / 2
+x265 [info]: Keyframe min / max / scenecut / bias: 25 / 250 / 40 / 5.00
+x265 [info]: Lookahead / bframes / badapt        : 20 / 4 / 2
+x265 [info]: b-pyramid / weightp / weightb       : 1 / 1 / 0
+x265 [info]: References / ref-limit  cu / depth  : 3 / on / on
+x265 [info]: Rate Control                        : CQP-22
+x265 [info]: tools: rd=3 rskip signhide tmvp strong-intra-smoothing deblock sao
+[1.2%] 1/80 frames, 0.00 fps, 3405217.50 kb/s, eta 8:45:45  [2.5%] 2/80 frames, 0.00 fps, 3599335.75 kb/s, eta 9:56:15  [3.8%] 3/80 frames, 0.00 fps, 3329414.25 kb/s, eta 20:23:05  [5.0%] 4/80 frames, 0.00 fps, 3363575.25 kb/s, eta 32:25:33  [6.2%] 5/80 frames, 0.00 fps, 2701020.00 kb/s, eta 33:48:34  [7.5%] 6/80 frames, 0.00 fps, 2778714.75 kb/s, eta 44:12:57  [8.8%] 7/80 frames, 0.00 fps, 2758753.50 kb/s, eta 48:19:10  [10.0%] 8/80 frames, 0.00 fps, 2743640.25 kb/s, eta 51:00:27  [11.2%] 9/80 frames, 0.00 fps, 2760162.75 kb/s, eta 50:20:54  [12.5%] 10/80 frames, 0.00 fps, 2818936.25 kb/s, eta 53:47:25  C: Tool (or Pin) caused signal 11 at PC 0x7fb538179460
+Segmentation fault (core dumped)
+/bin/sh: 1: /home/tom/mem_approx/pin-memapprox/examples/x265_2.5//pin: not found
+/bin/sh: 1: /home/tom/mem_approx/pin-memapprox/examples/x265_2.5//pin: not found
+/bin/sh: 1: /home/tom/mem_approx/pin-memapprox/examples/x265_2.5//pin: not found
+/bin/sh: 1: /home/tom/mem_approx/pin-memapprox/examples/x265_2.5/pin: not found
+x265 [error]: unable to open input file </data/videos/4K/Coastguard_3840x2160_60fps.yuv>
+x265 [error]: unable to open input file </data/videos/4K/Coastguard_3840x2160_60fps.yuv>
+x265 [error]: unable to open input file </data/videos/4K/Coastguard_3840x2160_60fps.yuv>
+yuv  [info]: 3840x2160 fps 60000/1000 i420p8 frames 0 - 79 of 996
+x265 [error]: failed to open output file </home/tom/mem_approx/pin-memapprox//examples/x265_2.5/outputs/Coastguard_3840x2160_60fps/videos/Coastguard_3840x2160_60fps_qp22_1E-4_1E-7.265> for writing
+yuv  [info]: 3840x2160 fps 60000/1000 i420p8 frames 0 - 79 of 996
+raw  [info]: output file: /home/tom/mem_approx/pin-memapprox//examples/x265_2.5/outputs/Coastguard_3840x2160_60fps/videos/Coastguard_3840x2160_60fps_qp22_1E-4_1E-7.265
+x265 [info]: HEVC encoder version 2.5
+x265 [info]: build info [Linux][GCC 5.4.0][64 bit] 8bit
+x265 [info]: using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x265 [info]: Main profile, Level-5.1 (Main tier)
+x265 [info]: Slices                              : 1
+x265 [info]: frame threads / pool features       : 1 / none
+x265 [info]: Coding QT: max CU size, min CU size : 64 / 8
+x265 [info]: Residual QT: max TU size, max depth : 32 / 1 inter / 1 intra
+x265 [info]: ME / range / subpel / merge         : hex / 57 / 2 / 2
+x265 [info]: Keyframe min / max / scenecut / bias: 25 / 250 / 40 / 5.00
+x265 [info]: Lookahead / bframes / badapt        : 20 / 4 / 2
+x265 [info]: b-pyramid / weightp / weightb       : 1 / 1 / 0
+x265 [info]: References / ref-limit  cu / depth  : 3 / on / on
+x265 [info]: Rate Control                        : CQP-22
+x265 [info]: tools: rd=3 rskip signhide tmvp strong-intra-smoothing deblock sao
+[1.2%] 1/80 frames, 0.00 fps, 3405218.00 kb/s, eta 8:59:05  [2.5%] 2/80 frames, 0.00 fps, 3599336.00 kb/s, eta 10:06:27  Segmentation fault (core dumped)
+yuv  [info]: 3840x2160 fps 60000/1000 i420p8 frames 0 - 79 of 996
+raw  [info]: output file: /home/tom/mem_approx/pin-memapprox//examples/x265_2.5/outputs/Coastguard_3840x2160_60fps/videos/Coastguard_3840x2160_60fps_qp22_1E-4_1E-7.265
+x265 [info]: HEVC encoder version 2.5
+x265 [info]: build info [Linux][GCC 5.4.0][64 bit] 8bit
+x265 [info]: using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x265 [info]: Main profile, Level-5.1 (Main tier)
+x265 [info]: Slices                              : 1
+x265 [info]: frame threads / pool features       : 1 / none
+x265 [info]: Coding QT: max CU size, min CU size : 64 / 8
+x265 [info]: Residual QT: max TU size, max depth : 32 / 1 inter / 1 intra
+x265 [info]: ME / range / subpel / merge         : hex / 57 / 2 / 2
+x265 [info]: Keyframe min / max / scenecut / bias: 25 / 250 / 40 / 5.00
+x265 [info]: Lookahead / bframes / badapt        : 20 / 4 / 2
+x265 [info]: b-pyramid / weightp / weightb       : 1 / 1 / 0
+x265 [info]: References / ref-limit  cu / depth  : 3 / on / on
+x265 [info]: Rate Control                        : CQP-22
+x265 [info]: tools: rd=3 rskip signhide tmvp strong-intra-smoothing deblock sao
+[1.2%] 1/80 frames, 0.00 fps, 3405218.00 kb/s, eta 5:42:06  [2.5%] 2/80 frames, 0.00 fps, 3599336.00 kb/s, eta 6:39:35  [3.8%] 3/80 frames, 0.00 fps, 3329408.75 kb/s, eta 15:05:08  [5.0%] 4/80 frames, 0.00 fps, 3363761.75 kb/s, eta 24:37:24  [6.2%] 5/80 frames, 0.00 fps, 2701025.25 kb/s, eta 25:55:57  [7.5%] 6/80 frames, 0.00 fps, 2778656.25 kb/s, eta 34:20:53  [8.8%] 7/80 frames, 0.00 fps, 2758450.50 kb/s, eta 37:34:25  [10.0%] 8/80 frames, 0.00 fps, 2743475.50 kb/s, eta 39:39:39  [11.2%] 9/80 frames, 0.00 fps, 2759952.25 kb/s, eta 39:09:25  [12.5%] 10/80 frames, 0.00 fps, 2818768.50 kb/s, eta 41:52:37  [13.8%] 11/80 frames, 0.00 fps, 2564673.00 kb/s, eta 40:09:59  [15.0%] 12/80 frames, 0.00 fps, 2635620.75 kb/s, eta 40:26:30  [16.2%] 13/80 frames, 0.00 fps, 2436887.75 kb/s, eta 38:59:06  [17.5%] 14/80 frames, 0.00 fps, 2266857.75 kb/s, eta 37:43:02  [18.8%] 15/80 frames, 0.00 fps, 2287651.50 kb/s, eta 38:05:27  [20.0%] 16/80 frames, 0.00 fps, 2305813.25 kb/s, eta 38:16:08  [21.2%] 17/80 frames, 0.00 fps, 2340550.00 kb/s, eta 37:26:40  [22.5%] 18/80 frames, 0.00 fps, 2361576.00 kb/s, eta 37:27:22  [23.8%] 19/80 frames, 0.00 fps, 2240362.50 kb/s, eta 36:15:44  [25.0%] 20/80 frames, 0.00 fps, 2289217.50 kb/s, eta 36:56:13  [26.2%] 21/80 frames, 0.00 fps, 2333601.00 kb/s, eta 37:32:12  [27.5%] 22/80 frames, 0.00 fps, 2384514.25 kb/s, eta 37:07:26  [28.8%] 23/80 frames, 0.00 fps, 2283054.75 kb/s, eta 35:57:53  [30.0%] 24/80 frames, 0.00 fps, 2188006.50 kb/s, eta 34:37:07  [31.2%] 25/80 frames, 0.00 fps, 2101635.00 kb/s, eta 33:30:27  [32.5%] 26/80 frames, 0.00 fps, 2021907.38 kb/s, eta 32:29:32  [33.8%] 27/80 frames, 0.00 fps, 2051216.88 kb/s, eta 31:45:39  [35.0%] 28/80 frames, 0.00 fps, 2096919.00 kb/s, eta 31:52:52  yuv  [info]: 3840x2160 fps 60000/1000 i420p8 frames 0 - 79 of 996
+raw  [info]: output file: /home/tom/mem_approx/pin-memapprox//examples/x265_2.5/outputs/Coastguard_3840x2160_60fps/videos/Coastguard_3840x2160_60fps_qp22_1E-4_1E-7.265
+x265 [info]: HEVC encoder version 2.5
+x265 [info]: build info [Linux][GCC 5.4.0][64 bit] 8bit
+x265 [info]: using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x265 [info]: Main profile, Level-5.1 (Main tier)
+x265 [info]: Slices                              : 1
+x265 [info]: frame threads / pool features       : 1 / none
+x265 [info]: Coding QT: max CU size, min CU size : 64 / 8
+x265 [info]: Residual QT: max TU size, max depth : 32 / 1 inter / 1 intra
+x265 [info]: ME / range / subpel / merge         : hex / 57 / 2 / 2
+x265 [info]: Keyframe min / max / scenecut / bias: 25 / 250 / 40 / 5.00
+x265 [info]: Lookahead / bframes / badapt        : 20 / 4 / 2
+x265 [info]: b-pyramid / weightp / weightb       : 1 / 1 / 0
+x265 [info]: References / ref-limit  cu / depth  : 3 / on / on
+x265 [info]: Rate Control                        : CQP-22
+x265 [info]: tools: rd=3 rskip signhide tmvp strong-intra-smoothing deblock sao
+[1.2%] 1/80 frames, 0.00 fps, 3405218.00 kb/s, eta 5:31:25  [2.5%] 2/80 frames, 0.00 fps, 3599336.00 kb/s, eta 6:23:21  [3.8%] 3/80 frames, 0.00 fps, 3329427.25 kb/s, eta 14:46:32  [5.0%] 4/80 frames, 0.00 fps, 3363672.25 kb/s, eta 24:18:08  [6.2%] 5/80 frames, 0.00 fps, 2701030.75 kb/s, eta 25:35:05  yuv  [info]: 3840x2160 fps 60000/1000 i420p8 frames 0 - 79 of 996
+raw  [info]: output file: /home/tom/mem_approx/pin-memapprox//examples/x265_2.5/outputs/Coastguard_3840x2160_60fps/videos/Coastguard_3840x2160_60fps_qp22_1E-4_1E-7.265
+x265 [info]: HEVC encoder version 2.5
+x265 [info]: build info [Linux][GCC 5.4.0][64 bit] 8bit
+x265 [info]: using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x265 [info]: Main profile, Level-5.1 (Main tier)
+x265 [info]: Slices                              : 1
+x265 [info]: frame threads / pool features       : 1 / none
+x265 [info]: Coding QT: max CU size, min CU size : 64 / 8
+x265 [info]: Residual QT: max TU size, max depth : 32 / 1 inter / 1 intra
+x265 [info]: ME / range / subpel / merge         : hex / 57 / 2 / 2
+x265 [info]: Keyframe min / max / scenecut / bias: 25 / 250 / 40 / 5.00
+x265 [info]: Lookahead / bframes / badapt        : 20 / 4 / 2
+x265 [info]: b-pyramid / weightp / weightb       : 1 / 1 / 0
+x265 [info]: References / ref-limit  cu / depth  : 3 / on / on
+x265 [info]: Rate Control                        : CQP-22
+x265 [info]: tools: rd=3 rskip signhide tmvp strong-intra-smoothing deblock sao
+[1.2%] 1/80 frames, 0.00 fps, 3405218.00 kb/s, eta 5:27:55  [2.5%] 2/80 frames, 0.00 fps, 3599336.00 kb/s, eta 6:22:46  [3.8%] 3/80 frames, 0.00 fps, 3329371.75 kb/s, eta 14:46:05  [5.0%] 4/80 frames, 0.00 fps, 3363557.25 kb/s, eta 24:21:25  [6.2%] 5/80 frames, 0.00 fps, 2700893.50 kb/s, eta 25:37:01  [7.5%] 6/80 frames, 0.00 fps, 2778573.75 kb/s, eta 33:53:43  [8.8%] 7/80 frames, 0.00 fps, 2758272.25 kb/s, eta 37:04:48  [10.0%] 8/80 frames, 0.00 fps, 2743295.50 kb/s, eta 39:15:29  [11.2%] 9/80 frames, 0.00 fps, 2759899.00 kb/s, eta 38:47:13  [12.5%] 10/80 frames, 0.00 fps, 2818750.50 kb/s, eta 41:27:36  [13.8%] 11/80 frames, 0.00 fps, 2564662.25 kb/s, eta 39:47:58  [15.0%] 12/80 frames, 0.00 fps, 2635562.75 kb/s, eta 40:06:45  [16.2%] 13/80 frames, 0.00 fps, 2436814.25 kb/s, eta 38:40:09  [17.5%] 14/80 frames, 0.00 fps, 2266825.25 kb/s, eta 37:25:23  [18.8%] 15/80 frames, 0.00 fps, 2287576.00 kb/s, eta 37:48:27  [20.0%] 16/80 frames, 0.00 fps, 2305746.00 kb/s, eta 38:00:04  [21.2%] 17/80 frames, 0.00 fps, 2340445.25 kb/s, eta 37:10:31  [22.5%] 18/80 frames, 0.00 fps, 2361515.50 kb/s, eta 37:11:27  [23.8%] 19/80 frames, 0.00 fps, 2240320.75 kb/s, eta 36:00:40  [25.0%] 20/80 frames, 0.00 fps, 2289134.75 kb/s, eta 36:40:25  [26.2%] 21/80 frames, 0.00 fps, 2333502.50 kb/s, eta 37:16:30  [27.5%] 22/80 frames, 0.00 fps, 2384438.50 kb/s, eta 36:51:38  [28.8%] 23/80 frames, 0.00 fps, 2282977.50 kb/s, eta 35:42:40  [30.0%] 24/80 frames, 0.00 fps, 2187930.75 kb/s, eta 34:22:48  [31.2%] 25/80 frames, 0.00 fps, 2101579.00 kb/s, eta 33:16:42  [32.5%] 26/80 frames, 0.00 fps, 2021869.38 kb/s, eta 32:16:22  [33.8%] 27/80 frames, 0.00 fps, 2051205.75 kb/s, eta 31:33:27  [35.0%] 28/80 frames, 0.00 fps, 2096929.12 kb/s, eta 31:41:51  [36.2%] 29/80 frames, 0.00 fps, 2025441.12 kb/s, eta 30:45:09  [37.5%] 30/80 frames, 0.00 fps, 2071304.25 kb/s, eta 30:21:07  [38.8%] 31/80 frames, 0.00 fps, 2006139.75 kb/s, eta 29:26:42  [40.0%] 32/80 frames, 0.00 fps, 1945225.50 kb/s, eta 28:35:22  [41.2%] 33/80 frames, 0.00 fps, 1965278.12 kb/s, eta 28:16:23  [42.5%] 34/80 frames, 0.00 fps, 1984153.62 kb/s, eta 27:55:33  [43.8%] 35/80 frames, 0.00 fps, 2010427.00 kb/s, eta 27:13:39  [45.0%] 36/80 frames, 0.00 fps, 2030004.62 kb/s, eta 26:48:53  [46.2%] 37/80 frames, 0.00 fps, 1976746.75 kb/s, eta 25:58:56  [47.5%] 38/80 frames, 0.00 fps, 2008542.75 kb/s, eta 25:49:16  [48.8%] 39/80 frames, 0.00 fps, 2038790.62 kb/s, eta 25:38:58  [50.0%] 40/80 frames, 0.00 fps, 1991132.62 kb/s, eta 24:44:21  [51.2%] 41/80 frames, 0.00 fps, 2021477.25 kb/s, eta 24:32:03  [52.5%] 42/80 frames, 0.00 fps, 2055388.25 kb/s, eta 24:09:42  [53.8%] 43/80 frames, 0.00 fps, 2008756.88 kb/s, eta 23:21:39  [55.0%] 44/80 frames, 0.00 fps, 2035261.50 kb/s, eta 23:14:38  [56.2%] 45/80 frames, 0.00 fps, 2046931.88 kb/s, eta 22:51:31  [57.5%] 46/80 frames, 0.00 fps, 2058105.75 kb/s, eta 22:21:04  [58.8%] 47/80 frames, 0.00 fps, 2075649.00 kb/s, eta 21:37:23  [60.0%] 48/80 frames, 0.00 fps, 2101336.75 kb/s, eta 21:12:06  [61.2%] 49/80 frames, 0.00 fps, 2058942.25 kb/s, eta 20:23:12  [62.5%] 50/80 frames, 0.00 fps, 2085221.62 kb/s, eta 19:46:25  [63.8%] 51/80 frames, 0.00 fps, 2045340.50 kb/s, eta 18:58:49  [65.0%] 52/80 frames, 0.00 fps, 2007101.88 kb/s, eta 18:12:30  [66.2%] 53/80 frames, 0.00 fps, 2017994.62 kb/s, eta 17:37:40  [67.5%] 54/80 frames, 0.00 fps, 2028487.12 kb/s, eta 17:02:04  [68.8%] 55/80 frames, 0.00 fps, 2044083.00 kb/s, eta 16:19:28  [70.0%] 56/80 frames, 0.00 fps, 2066240.25 kb/s, eta 15:48:50  [71.2%] 57/80 frames, 0.00 fps, 2030390.75 kb/s, eta 15:03:24  [72.5%] 58/80 frames, 0.00 fps, 2053392.88 kb/s, eta 14:25:45  [73.8%] 59/80 frames, 0.00 fps, 2019464.00 kb/s, eta 13:41:23  [75.0%] 60/80 frames, 0.00 fps, 1986765.62 kb/s, eta 12:57:49  [76.2%] 61/80 frames, 0.00 fps, 1996822.38 kb/s, eta 12:21:31  [77.5%] 62/80 frames, 0.00 fps, 2006570.50 kb/s, eta 11:44:42  [78.8%] 63/80 frames, 0.00 fps, 2020461.50 kb/s, eta 11:03:38  [80.0%] 64/80 frames, 0.00 fps, 2039907.00 kb/s, eta 10:29:34  [81.2%] 65/80 frames, 0.00 fps, 2008876.38 kb/s, eta 9:46:48  [82.5%] 66/80 frames, 0.00 fps, 2029114.50 kb/s, eta 9:08:39  [83.8%] 67/80 frames, 0.00 fps, 1999600.25 kb/s, eta 8:26:47  [85.0%] 68/80 frames, 0.00 fps, 1971048.38 kb/s, eta 7:45:29  [86.2%] 69/80 frames, 0.00 fps, 1979806.88 kb/s, eta 7:07:58  [87.5%] 70/80 frames, 0.00 fps, 1988324.38 kb/s, eta 6:30:04  [88.8%] 71/80 frames, 0.00 fps, 2000706.88 kb/s, eta 5:50:06  [90.0%] 72/80 frames, 0.00 fps, 1973733.38 kb/s, eta 5:09:44  [91.2%] 73/80 frames, 0.00 fps, 1946745.38 kb/s, eta 4:29:11  [92.5%] 74/80 frames, 0.00 fps, 1962879.75 kb/s, eta 3:52:38  [93.8%] 75/80 frames, 0.00 fps, 1978622.75 kb/s, eta 3:15:29  [95.0%] 76/80 frames, 0.00 fps, 1997067.00 kb/s, eta 2:36:31  [96.2%] 77/80 frames, 0.00 fps, 1971791.00 kb/s, eta 1:56:52  [97.5%] 78/80 frames, 0.00 fps, 1986758.12 kb/s, eta 1:18:31  [98.8%] 79/80 frames, 0.00 fps, 1993925.62 kb/s, eta 0:39:24  [100.0%] 80/80 frames, 0.00 fps, 2000986.38 kb/s, eta 0:00:00                                                                                  x265 [info]: frame I:      2, Avg QP:19.00  kb/s: 3598849.92  PSNR Mean: Y:44.141 U:43.250 V:43.244
+x265 [info]: frame P:     19, Avg QP:22.00  kb/s: 2978482.18  PSNR Mean: Y:39.386 U:39.127 V:39.092
+x265 [info]: frame B:     59, Avg QP:23.71  kb/s: 1632015.38  PSNR Mean: Y:38.606 U:38.432 V:38.395
+x265 [info]: Weighted P-Frames: Y:0.0% UV:0.0%
+x265 [info]: consecutive B-frames: 14.3% 4.8% 23.8% 0.0% 57.1% 
+
+encoded 80 frames in 189534.62s (0.00 fps), 2000972.25 kb/s, Avg QP:23.19, Global PSNR: 38.872
