@@ -153,7 +153,7 @@ bool Search::initSearch(const x265_param& param, ScalingList& scalingList)
     
     //@IDM
     
-    #ifdef heap_array_bp
+   /* #ifdef heap_array_bp
     #ifdef APPROX_on
         start_approx_add[0] = (unsigned long long)(intraNeighbourBuf[0]);
         end_approx_add[0] = (unsigned long long)(intraNeighbourBuf[0]+257);
@@ -171,7 +171,7 @@ bool Search::initSearch(const x265_param& param, ScalingList& scalingList)
         set_read_ber((double)m_param->rber_intra);
         
     #endif
-#endif
+#endif*/
     
     
     m_rdCost.setPsyRdScale(param.psyRd);
