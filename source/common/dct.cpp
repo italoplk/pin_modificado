@@ -31,9 +31,17 @@
 #include "primitives.h"
 #include "contexts.h"   // costCoeffNxN_c
 #include "threading.h"  // CLZ
-
+#include "approx.h"
+//#include "param.h"
 using namespace X265_NS;
+//@IDM
+extern float wber_trans;
+extern float rber_trans;
+//approx *aproximation = new approx();
 
+ //const x265_param* m_param;
+ 
+ 
 #if _MSC_VER
 #pragma warning(disable: 4127) // conditional expression is constant, typical for templated functions
 #endif
@@ -135,6 +143,8 @@ static void partialButterfly16(const int16_t* src, int16_t* dst, int shift, int 
 
 static void partialButterfly32(const int16_t* src, int16_t* dst, int shift, int line)
 {
+    //@IDM_Tranform
+    //printf("\nENTROU 32 NORMAL\n");
     int j, k;
     int E[16], O[16];
     int EE[8], EO[8];
@@ -204,6 +214,8 @@ static void partialButterfly32(const int16_t* src, int16_t* dst, int shift, int 
 
 static void partialButterfly8(const int16_t* src, int16_t* dst, int shift, int line)
 {
+    
+
     int j, k;
     int E[4], O[4];
     int EE[2], EO[2];
@@ -469,8 +481,23 @@ static void dct4_c(const int16_t* src, int16_t* dst, intptr_t srcStride)
         memcpy(&block[i * 4], &src[i * srcStride], 4 * sizeof(int16_t));
     }
 
+    //@IDM
+    
+    unsigned long long start_approx_add, end_approx_add;
+    start_approx_add = (unsigned long long)(&coef[0]);
+    end_approx_add = (unsigned long long)(&coef[15] + sizeof(int16_t));		
+
+    add_approx(start_approx_add, end_approx_add);
+    set_read_ber(rber_trans);                         
+    set_write_ber(wber_trans);
+        
     partialButterfly4(block, coef, shift_1st, 4);
+    
+    remove_approx(start_approx_add, end_approx_add);
+
+    
     partialButterfly4(coef, dst, shift_2nd, 4);
+    
 }
 
 static void dct8_c(const int16_t* src, int16_t* dst, intptr_t srcStride)
@@ -486,7 +513,20 @@ static void dct8_c(const int16_t* src, int16_t* dst, intptr_t srcStride)
         memcpy(&block[i * 8], &src[i * srcStride], 8 * sizeof(int16_t));
     }
 
-    partialButterfly8(block, coef, shift_1st, 8);
+    //@@IDM - address structures
+     unsigned long long start_approx_add, end_approx_add;
+     start_approx_add = (unsigned long long)(&coef[0]);
+     end_approx_add = (unsigned long long)(&coef[0]+64);		
+
+     add_approx(start_approx_add, end_approx_add);
+     set_read_ber(rber_trans);                         
+     set_write_ber(wber_trans);
+        
+     partialButterfly8(block, coef, shift_1st, 8);
+    
+    remove_approx(start_approx_add, end_approx_add);
+
+    
     partialButterfly8(coef, dst, shift_2nd, 8);
 }
 
@@ -502,16 +542,34 @@ static void dct16_c(const int16_t* src, int16_t* dst, intptr_t srcStride)
     {
         memcpy(&block[i * 16], &src[i * srcStride], 16 * sizeof(int16_t));
     }
+    
+ //@@IDM - address structures
+    unsigned long long start_approx_add, end_approx_add;
+    start_approx_add = (unsigned long long)(&coef[0]);
+    end_approx_add = (unsigned long long)(&coef[0]+256);		
 
+    add_approx(start_approx_add, end_approx_add);
+    set_read_ber(rber_trans);                         
+    set_write_ber(wber_trans);
+        
     partialButterfly16(block, coef, shift_1st, 16);
+    
+    remove_approx(start_approx_add, end_approx_add);
+    
     partialButterfly16(coef, dst, shift_2nd, 16);
 }
 
 static void dct32_c(const int16_t* src, int16_t* dst, intptr_t srcStride)
 {
+           // const x265_param* m_param;
+        
     const int shift_1st = 4 + X265_DEPTH - 8;
     const int shift_2nd = 11;
 
+	
+    
+
+ 		
     ALIGN_VAR_32(int16_t, coef[32 * 32]);
     ALIGN_VAR_32(int16_t, block[32 * 32]);
 
@@ -519,8 +577,20 @@ static void dct32_c(const int16_t* src, int16_t* dst, intptr_t srcStride)
     {
         memcpy(&block[i * 32], &src[i * srcStride], 32 * sizeof(int16_t));
     }
+ 
+    //@@IDM - address structures
+    unsigned long long start_approx_add, end_approx_add;
+    start_approx_add = (unsigned long long)(&coef[0]);
+    end_approx_add = (unsigned long long)(&coef[0]+1024);		
+
+    add_approx(start_approx_add, end_approx_add);
+    set_read_ber(rber_trans);                         
+    set_write_ber(wber_trans);
 
     partialButterfly32(block, coef, shift_1st, 32);
+
+    remove_approx(start_approx_add, end_approx_add);
+    
     partialButterfly32(coef, dst, shift_2nd, 32);
 }
 
@@ -989,6 +1059,8 @@ namespace X265_NS {
 
 void setupDCTPrimitives_c(EncoderPrimitives& p)
 {
+
+   
     p.dequant_scaling = dequant_scaling_c;
     p.dequant_normal = dequant_normal_c;
     p.quant = quant_c;
@@ -1019,5 +1091,10 @@ void setupDCTPrimitives_c(EncoderPrimitives& p)
     p.costCoeffNxN = costCoeffNxN_c;
     p.costCoeffRemain = costCoeffRemain_c;
     p.costC1C2Flag = costC1C2Flag_c;
+    
+            //@idm
+//        extern double bera;
+//        bera = 1;
+
 }
 }
