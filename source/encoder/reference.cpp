@@ -69,17 +69,17 @@ int MotionReference::init(PicYuv* recPic, WeightParam *wp, const x265_param& p)
 
     
     //@IDM
-           /*                     unsigned long long start_approx_add[3], end_approx_add[3];
+                          /*    unsigned long long start_approx_add[3], end_approx_add[3];
                                 uint32_t numCuInWidth = (p.sourceWidth + p.maxCUSize - 1)  / p.maxCUSize;
                                 uint32_t numCuInHeight = (p.sourceHeight + p.maxCUSize - 1) / p.maxCUSize;
 				intptr_t stride = (numCuInWidth * p.maxCUSize) + ((p.maxCUSize + 32) << 1);
 				int maxHeight = numCuInHeight * p.maxCUSize;
 			
-				start_approx_add[0] = (unsigned long long)(fpelPlane[0]);
-				end_approx_add[0] = (unsigned long long)(fpelPlane[0] + (stride * (maxHeight + (p.maxCUSize + 16) * 2)));
+				start_approx_add[0] = (unsigned long long)(reconPic->m_picBuf[0]);
+				end_approx_add[0] = (unsigned long long)(reconPic->m_picBuf[0] + (stride * (maxHeight + (p.maxCUSize + 16) * 2)));
                               
                                 //printf ("\nadd_approx %llu %llu", (unsigned long long)start_approx_add[l][ref], (unsigned long long)end_approx_add[l][ref]);
-                                
+                                //printf ("\n SOH PRA GARANTI");
 			  	add_approx(start_approx_add[0], end_approx_add[0]);		
 			
                                 printf ("\nread_ber %f", (double)p.rber_me);
@@ -89,7 +89,7 @@ int MotionReference::init(PicYuv* recPic, WeightParam *wp, const x265_param& p)
                                 set_read_ber((double)p.rber_me);
 			  	set_write_ber((double)p.wber_me);*/
     
-    
+
     
     /* directly reference the extended integer pel planes */
     fpelPlane[0] = recPic->m_picOrg[0];

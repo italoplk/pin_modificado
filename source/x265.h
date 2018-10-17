@@ -46,6 +46,9 @@ typedef struct x265_encoder x265_encoder;
 #define X265_API
 #endif
 
+	extern float wber_me; //@@IDM
+	extern float rber_me; //@@IDM
+        
 typedef enum
 {
     NAL_UNIT_CODED_SLICE_TRAIL_N = 0,

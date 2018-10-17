@@ -10,21 +10,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/italo/Documentos/pin-memapprox/examples/x265_2.5/source/encoder/reference.cpp</file>
-            <file>file:/home/italo/Documentos/pin-memapprox/examples/x265_2.5/source/encoder/frameencoder.h</file>
-            <file>file:/home/italo/Documentos/pin-memapprox/examples/x265_2.5/source/common/predict.h</file>
-            <file>file:/home/italo/Documentos/pin-memapprox/examples/x265_2.5/source/x265cli.h</file>
-            <file>file:/home/italo/Documentos/pin-memapprox/examples/x265_2.5/source/common/predict.cpp</file>
-            <file>file:/home/italo/Documentos/pin-memapprox/examples/x265_2.5/source/common/intrapred.cpp</file>
-            <file>file:/home/italo/Documentos/pin-memapprox/examples/x265_2.5/source/encoder/approx.h</file>
-            <file>file:/home/italo/Documentos/pin-memapprox/examples/x265_2.5/source/x265.h</file>
-            <file>file:/home/italo/Documentos/pin-memapprox/examples/x265_2.5/source/encoder/search.h</file>
-            <file>file:/home/italo/Documentos/pin-memapprox/examples/x265_2.5/source/encoder/search.cpp</file>
-            <file>file:/home/italo/Documentos/pin-memapprox/examples/x265_2.5/source/common/param.cpp</file>
-            <file>file:/home/italo/Documentos/pin-memapprox/examples/x265_2.5/source/encoder/analysis.cpp</file>
-            <file>file:/home/italo/Documentos/pin-memapprox/examples/x265_2.5/source/encoder/analysis.h</file>
-            <file>file:/home/italo/Documentos/pin-memapprox/examples/x265_2.5/source/encoder/frameencoder.cpp</file>
-            <file>file:/home/italo/Documentos/pin-memapprox/examples/x265_2.5/source/common/quant.cpp</file>
+            <file>file:/home/italo/Documentos/pin-memapprox/x265_2.5/source/x265.cpp</file>
+            <file>file:/home/italo/Documentos/pin-memapprox/x265_2.5/source/common/param.cpp</file>
+            <file>file:/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/frameencoder.h</file>
+            <file>file:/home/italo/Documentos/pin-memapprox/x265_2.5/source/common/primitives.cpp</file>
+            <file>file:/home/italo/Documentos/pin-memapprox/x265_2.5/source/common/param.h</file>
+            <file>file:/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/search.cpp</file>
+            <file>file:/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/approx.h</file>
+            <file>file:/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/search.h</file>
+            <file>file:/home/italo/Documentos/pin-memapprox/x265_2.5/source/common/dct.cpp</file>
+            <file>file:/home/italo/Documentos/pin-memapprox/x265_2.5/source/common/primitives.h</file>
+            <file>file:/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/frameencoder.cpp</file>
+            <file>file:/home/italo/Documentos/pin-memapprox/x265_2.5/source/x265.h</file>
         </group>
     </open-files>
 </project-private>

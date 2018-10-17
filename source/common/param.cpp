@@ -29,6 +29,8 @@
 #include "cpu.h"
 #include "x265.h"
 
+	float wber_trans; //@@IDM
+	float rber_trans; //@@IDM
 #if _MSC_VER
 #pragma warning(disable: 4996) // POSIX functions are just fine, thanks
 #pragma warning(disable: 4706) // assignment within conditional
@@ -107,8 +109,12 @@ void x265_param_default(x265_param* param)
 	param->wber_me = 0; //@@zatt
 	param->rber_me = 0; //@@zatt
         param->wber_intra = 0; //@@IDM
-	param->rber_intra = 0; //@@IDM
-
+	param->rber_intra = 0; //@@IDM3
+        //@@IDM
+	rber_trans = 0;
+        wber_trans = 0;
+        
+        
     /* Applying default values to all elements in the param structure */
     param->cpuid = X265_NS::cpu_detect();
     param->bEnableWavefront = 1;
@@ -604,6 +610,8 @@ int x265_param_parse(x265_param* p, const char* name, const char* value)
 	OPT("rber-me") p->rber_me = atof(value);	//@@zatt
         OPT("wber-intra") p->wber_intra = atof(value);	//@@IDM
 	OPT("rber-intra") p->rber_intra = atof(value);	//@@IDM
+       OPT("wber-trans") wber_trans = atof(value);	//@@zatt
+	OPT("rber-trans") rber_trans = atof(value);	//@@zatt
         
         
     OPT("asm")

@@ -27,7 +27,7 @@
 #include "slice.h"
 #include "primitives.h"
 //@IDM
-#include "approx.h"
+//#include "approx.h"
 
 
 using namespace X265_NS;
@@ -115,6 +115,7 @@ bool PicYuv::create(x265_param* param, pixel *pixelbuf)
     }
 
        //@IDM2
+    /*
                                 unsigned long long start_approx_add[3], end_approx_add[3];
                                // uint32_t numCuInWidth = (m_param->sourceWidth + m_param->maxCUSize - 1)  / m_param->maxCUSize;
                                // uint32_t numCuInHeight = (m_param->sourceHeight + m_param->maxCUSize - 1) / m_param->maxCUSize;
@@ -133,9 +134,15 @@ bool PicYuv::create(x265_param* param, pixel *pixelbuf)
                                 
 			  	
                                 set_read_ber((double)m_param->rber_me);
-			  	set_write_ber((double)m_param->wber_me);
+			  	set_write_ber((double)m_param->wber_me);*/
     
-
+  if (pixelbuf)
+        m_picOrg[0] = pixelbuf;
+    else
+    {
+        CHECKED_MALLOC(m_picBuf[0], pixel, m_stride * (maxHeight + (m_lumaMarginY * 2)));
+        m_picOrg[0] = m_picBuf[0] + m_lumaMarginY * m_stride + m_lumaMarginX;
+    }
     
     
     if (picCsp != X265_CSP_I400)

@@ -24,6 +24,7 @@
 #include "common.h"
 #include "primitives.h"
 
+
 namespace X265_NS {
 // x265 private namespace
 
@@ -231,6 +232,11 @@ void x265_setup_primitives(x265_param *param)
 {
     if (!primitives.pu[0].sad)
     {
+        
+        
+      //@IDM
+      // bera = param->rber_me;
+        //double wber = param->rber_me;
         setupCPrimitives(primitives);
 
         /* We do not want the encoder to use the un-optimized intra all-angles

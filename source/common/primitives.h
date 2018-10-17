@@ -1,4 +1,4 @@
-/*****************************************************************************
+ /*****************************************************************************
  * Copyright (C) 2013-2017 MulticoreWare, Inc
  *
  * Authors: Steve Borho <steve@borho.org>
@@ -35,6 +35,7 @@
 
 namespace X265_NS {
 // x265 private namespace
+
 
 enum LumaPU
 {
@@ -221,6 +222,7 @@ typedef void (*integralh_t)(uint32_t *sum, pixel *pix, intptr_t stride);
  * either an assembly routine, a SIMD intrinsic primitive, or a C function */
 struct EncoderPrimitives
 {
+
     /* These primitives can be used for any sized prediction unit (from 4x4 to
      * 64x64, square, rectangular - 50/50 or asymmetrical - 25/75) and are
      * generally restricted to motion estimation and motion compensation (inter
@@ -295,6 +297,8 @@ struct EncoderPrimitives
     /* These remaining primitives work on either fixed block sizes or take
      * block dimensions as arguments and thus do not belong in either the PU or
      * the CU arrays */
+    
+
     dct_t                 dst4x4;
     idct_t                idst4x4;
 
@@ -453,6 +457,7 @@ void setupDCTPrimitives_altivec(EncoderPrimitives &p);
 void setupFilterPrimitives_altivec(EncoderPrimitives &p);
 void setupIntraPrimitives_altivec(EncoderPrimitives &p);
 #endif
+
 }
 
 #if !EXPORT_C_API

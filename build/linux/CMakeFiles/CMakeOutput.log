@@ -1289,3 +1289,504 @@ make[2]: Leaving directory `/home/italo/Documentos/pin-memapprox/examples/x265_2
 make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
 
 
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3880494257/fast"
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3880494257.dir/build.make CMakeFiles/cmTryCompileExec3880494257.dir/build
+make[2]: Entering directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3880494257.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3880494257.dir/CheckIncludeFiles.c.o   -c /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3880494257
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3880494257.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3880494257.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3880494257 -rdynamic 
+make[2]: Leaving directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test CC_HAS_NO_STRICT_OVERFLOW succeded with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3059970291/fast"
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3059970291.dir/build.make CMakeFiles/cmTryCompileExec3059970291.dir/build
+make[2]: Entering directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3059970291.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_NO_STRICT_OVERFLOW   -Wno-strict-overflow -o CMakeFiles/cmTryCompileExec3059970291.dir/src.cxx.o -c /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3059970291
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3059970291.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_NO_STRICT_OVERFLOW    CMakeFiles/cmTryCompileExec3059970291.dir/src.cxx.o  -o cmTryCompileExec3059970291 -rdynamic 
+make[2]: Leaving directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CC_HAS_NO_NARROWING succeded with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1743151261/fast"
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1743151261.dir/build.make CMakeFiles/cmTryCompileExec1743151261.dir/build
+make[2]: Entering directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1743151261.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_NO_NARROWING   -Wno-narrowing -o CMakeFiles/cmTryCompileExec1743151261.dir/src.cxx.o -c /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1743151261
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1743151261.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_NO_NARROWING    CMakeFiles/cmTryCompileExec1743151261.dir/src.cxx.o  -o cmTryCompileExec1743151261 -rdynamic 
+make[2]: Leaving directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CC_HAS_NO_ARRAY_BOUNDS succeded with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2600363244/fast"
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2600363244.dir/build.make CMakeFiles/cmTryCompileExec2600363244.dir/build
+make[2]: Entering directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2600363244.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_NO_ARRAY_BOUNDS   -Wno-array-bounds -o CMakeFiles/cmTryCompileExec2600363244.dir/src.cxx.o -c /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2600363244
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2600363244.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_NO_ARRAY_BOUNDS    CMakeFiles/cmTryCompileExec2600363244.dir/src.cxx.o  -o cmTryCompileExec2600363244 -rdynamic 
+make[2]: Leaving directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CC_HAS_FAST_MATH succeded with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1129713568/fast"
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1129713568.dir/build.make CMakeFiles/cmTryCompileExec1129713568.dir/build
+make[2]: Entering directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1129713568.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_FAST_MATH   -ffast-math -o CMakeFiles/cmTryCompileExec1129713568.dir/src.cxx.o -c /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1129713568
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1129713568.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_FAST_MATH    CMakeFiles/cmTryCompileExec1129713568.dir/src.cxx.o  -o cmTryCompileExec1129713568 -rdynamic 
+make[2]: Leaving directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CC_HAS_STACK_REALIGN succeded with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3028385177/fast"
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3028385177.dir/build.make CMakeFiles/cmTryCompileExec3028385177.dir/build
+make[2]: Entering directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3028385177.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_STACK_REALIGN   -mstackrealign -o CMakeFiles/cmTryCompileExec3028385177.dir/src.cxx.o -c /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3028385177
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3028385177.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_STACK_REALIGN    CMakeFiles/cmTryCompileExec3028385177.dir/src.cxx.o  -o cmTryCompileExec3028385177 -rdynamic 
+make[2]: Leaving directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CC_HAS_FNO_EXCEPTIONS_FLAG succeded with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3674506017/fast"
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3674506017.dir/build.make CMakeFiles/cmTryCompileExec3674506017.dir/build
+make[2]: Entering directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3674506017.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_FNO_EXCEPTIONS_FLAG   -fno-exceptions -o CMakeFiles/cmTryCompileExec3674506017.dir/src.cxx.o -c /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3674506017
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3674506017.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_FNO_EXCEPTIONS_FLAG    CMakeFiles/cmTryCompileExec3674506017.dir/src.cxx.o  -o cmTryCompileExec3674506017 -rdynamic 
+make[2]: Leaving directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Determining if the strtok_r exist passed with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3319419495/fast"
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3319419495.dir/build.make CMakeFiles/cmTryCompileExec3319419495.dir/build
+make[2]: Entering directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3319419495.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3319419495.dir/CheckSymbolExists.c.o   -c /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3319419495
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3319419495.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3319419495.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3319419495 -rdynamic 
+make[2]: Leaving directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+File /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtok_r
+  return ((int*)(&strtok_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files getopt.h exist passed with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2895450649/fast"
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2895450649.dir/build.make CMakeFiles/cmTryCompileExec2895450649.dir/build
+make[2]: Entering directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2895450649.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2895450649.dir/CheckIncludeFiles.c.o   -c /home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2895450649
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2895450649.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2895450649.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2895450649 -rdynamic 
+make[2]: Leaving directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/examples/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec849960321/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec849960321.dir/build.make CMakeFiles/cmTryCompileExec849960321.dir/build
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec849960321.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec849960321.dir/CheckIncludeFiles.c.o   -c /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec849960321
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec849960321.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec849960321.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec849960321 -rdynamic 
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test CC_HAS_NO_STRICT_OVERFLOW succeded with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2736200910/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2736200910.dir/build.make CMakeFiles/cmTryCompileExec2736200910.dir/build
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2736200910.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_NO_STRICT_OVERFLOW   -Wno-strict-overflow -o CMakeFiles/cmTryCompileExec2736200910.dir/src.cxx.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2736200910
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2736200910.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_NO_STRICT_OVERFLOW    CMakeFiles/cmTryCompileExec2736200910.dir/src.cxx.o  -o cmTryCompileExec2736200910 -rdynamic 
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CC_HAS_NO_NARROWING succeded with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1798382721/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1798382721.dir/build.make CMakeFiles/cmTryCompileExec1798382721.dir/build
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1798382721.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_NO_NARROWING   -Wno-narrowing -o CMakeFiles/cmTryCompileExec1798382721.dir/src.cxx.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1798382721
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1798382721.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_NO_NARROWING    CMakeFiles/cmTryCompileExec1798382721.dir/src.cxx.o  -o cmTryCompileExec1798382721 -rdynamic 
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CC_HAS_NO_ARRAY_BOUNDS succeded with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2292814917/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2292814917.dir/build.make CMakeFiles/cmTryCompileExec2292814917.dir/build
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2292814917.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_NO_ARRAY_BOUNDS   -Wno-array-bounds -o CMakeFiles/cmTryCompileExec2292814917.dir/src.cxx.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2292814917
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2292814917.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_NO_ARRAY_BOUNDS    CMakeFiles/cmTryCompileExec2292814917.dir/src.cxx.o  -o cmTryCompileExec2292814917 -rdynamic 
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CC_HAS_FAST_MATH succeded with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1547192552/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1547192552.dir/build.make CMakeFiles/cmTryCompileExec1547192552.dir/build
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1547192552.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_FAST_MATH   -ffast-math -o CMakeFiles/cmTryCompileExec1547192552.dir/src.cxx.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1547192552
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1547192552.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_FAST_MATH    CMakeFiles/cmTryCompileExec1547192552.dir/src.cxx.o  -o cmTryCompileExec1547192552 -rdynamic 
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CC_HAS_STACK_REALIGN succeded with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3530933331/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3530933331.dir/build.make CMakeFiles/cmTryCompileExec3530933331.dir/build
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3530933331.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_STACK_REALIGN   -mstackrealign -o CMakeFiles/cmTryCompileExec3530933331.dir/src.cxx.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3530933331
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3530933331.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_STACK_REALIGN    CMakeFiles/cmTryCompileExec3530933331.dir/src.cxx.o  -o cmTryCompileExec3530933331 -rdynamic 
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CC_HAS_FNO_EXCEPTIONS_FLAG succeded with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1823859762/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1823859762.dir/build.make CMakeFiles/cmTryCompileExec1823859762.dir/build
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1823859762.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_FNO_EXCEPTIONS_FLAG   -fno-exceptions -o CMakeFiles/cmTryCompileExec1823859762.dir/src.cxx.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1823859762
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1823859762.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_FNO_EXCEPTIONS_FLAG    CMakeFiles/cmTryCompileExec1823859762.dir/src.cxx.o  -o cmTryCompileExec1823859762 -rdynamic 
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Determining if the strtok_r exist passed with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1946459903/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1946459903.dir/build.make CMakeFiles/cmTryCompileExec1946459903.dir/build
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1946459903.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1946459903.dir/CheckSymbolExists.c.o   -c /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1946459903
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1946459903.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1946459903.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1946459903 -rdynamic 
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+File /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtok_r
+  return ((int*)(&strtok_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files getopt.h exist passed with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3664504935/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3664504935.dir/build.make CMakeFiles/cmTryCompileExec3664504935.dir/build
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3664504935.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3664504935.dir/CheckIncludeFiles.c.o   -c /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3664504935
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3664504935.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3664504935.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3664504935 -rdynamic 
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3582310865/fast"
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3582310865.dir/build.make CMakeFiles/cmTryCompileExec3582310865.dir/build
+make[2]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3582310865.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3582310865.dir/CheckIncludeFiles.c.o   -c /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3582310865
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3582310865.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3582310865.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3582310865 -rdynamic 
+make[2]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test CC_HAS_NO_STRICT_OVERFLOW succeded with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3216951605/fast"
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3216951605.dir/build.make CMakeFiles/cmTryCompileExec3216951605.dir/build
+make[2]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3216951605.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_NO_STRICT_OVERFLOW   -Wno-strict-overflow -o CMakeFiles/cmTryCompileExec3216951605.dir/src.cxx.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3216951605
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3216951605.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_NO_STRICT_OVERFLOW    CMakeFiles/cmTryCompileExec3216951605.dir/src.cxx.o  -o cmTryCompileExec3216951605 -rdynamic 
+make[2]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CC_HAS_NO_NARROWING succeded with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec671905096/fast"
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec671905096.dir/build.make CMakeFiles/cmTryCompileExec671905096.dir/build
+make[2]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec671905096.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_NO_NARROWING   -Wno-narrowing -o CMakeFiles/cmTryCompileExec671905096.dir/src.cxx.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec671905096
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec671905096.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_NO_NARROWING    CMakeFiles/cmTryCompileExec671905096.dir/src.cxx.o  -o cmTryCompileExec671905096 -rdynamic 
+make[2]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CC_HAS_NO_ARRAY_BOUNDS succeded with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3951430976/fast"
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3951430976.dir/build.make CMakeFiles/cmTryCompileExec3951430976.dir/build
+make[2]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3951430976.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_NO_ARRAY_BOUNDS   -Wno-array-bounds -o CMakeFiles/cmTryCompileExec3951430976.dir/src.cxx.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3951430976
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3951430976.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_NO_ARRAY_BOUNDS    CMakeFiles/cmTryCompileExec3951430976.dir/src.cxx.o  -o cmTryCompileExec3951430976 -rdynamic 
+make[2]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CC_HAS_FAST_MATH succeded with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec470651647/fast"
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec470651647.dir/build.make CMakeFiles/cmTryCompileExec470651647.dir/build
+make[2]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec470651647.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_FAST_MATH   -ffast-math -o CMakeFiles/cmTryCompileExec470651647.dir/src.cxx.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec470651647
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec470651647.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_FAST_MATH    CMakeFiles/cmTryCompileExec470651647.dir/src.cxx.o  -o cmTryCompileExec470651647 -rdynamic 
+make[2]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CC_HAS_STACK_REALIGN succeded with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2943104724/fast"
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2943104724.dir/build.make CMakeFiles/cmTryCompileExec2943104724.dir/build
+make[2]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2943104724.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_STACK_REALIGN   -mstackrealign -o CMakeFiles/cmTryCompileExec2943104724.dir/src.cxx.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2943104724
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2943104724.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_STACK_REALIGN    CMakeFiles/cmTryCompileExec2943104724.dir/src.cxx.o  -o cmTryCompileExec2943104724 -rdynamic 
+make[2]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CC_HAS_FNO_EXCEPTIONS_FLAG succeded with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec529412316/fast"
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec529412316.dir/build.make CMakeFiles/cmTryCompileExec529412316.dir/build
+make[2]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec529412316.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_FNO_EXCEPTIONS_FLAG   -fno-exceptions -o CMakeFiles/cmTryCompileExec529412316.dir/src.cxx.o -c /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec529412316
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec529412316.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_FNO_EXCEPTIONS_FLAG    CMakeFiles/cmTryCompileExec529412316.dir/src.cxx.o  -o cmTryCompileExec529412316 -rdynamic 
+make[2]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Determining if the strtok_r exist passed with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec363965885/fast"
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec363965885.dir/build.make CMakeFiles/cmTryCompileExec363965885.dir/build
+make[2]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec363965885.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec363965885.dir/CheckSymbolExists.c.o   -c /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec363965885
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec363965885.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec363965885.dir/CheckSymbolExists.c.o  -o cmTryCompileExec363965885 -rdynamic 
+make[2]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+File /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtok_r
+  return ((int*)(&strtok_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files getopt.h exist passed with the following output:
+Change Dir: /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3647353008/fast"
+make[1]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3647353008.dir/build.make CMakeFiles/cmTryCompileExec3647353008.dir/build
+make[2]: Entering directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3647353008.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3647353008.dir/CheckIncludeFiles.c.o   -c /home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3647353008
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3647353008.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3647353008.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3647353008 -rdynamic 
+make[2]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/italo/Documentos/pin-memapprox/x265_2.5/build/linux/CMakeFiles/CMakeTmp'
+
+

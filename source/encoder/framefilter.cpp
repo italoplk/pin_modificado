@@ -219,7 +219,8 @@ void FrameFilter::init(Encoder *top, FrameEncoder *frame, int numRows, uint32_t 
             m_parallelFilter[row].m_rowAddr = row * numCols;
             m_parallelFilter[row].m_frameFilter = this;
 
-            if (row > 0)
+            if (row > 0) //IDM
+                               
                 m_parallelFilter[row].m_prevRow = &m_parallelFilter[row - 1];
         }
     }
@@ -607,7 +608,7 @@ void FrameFilter::processRow(int row)
                     m_parallelFilter[row].processSaoCTU(saoParam, col);
                 }
             }
-
+//@IDM PROCURAR ESTRUTURA DE DADOS SENDO ESCRITA E INSERIR ERRO ANTES DE FAZAER A ESCRITA
             // Process border extension on last row
             for(int col = 0; col < m_numCols; col++)
             {

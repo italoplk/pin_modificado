@@ -1044,7 +1044,7 @@ int Encoder::encode(const x265_picture* pic_in, x265_picture* pic_out)
                     frameEnc->m_encData->m_meBuffer[i] = X265_MALLOC(uint32_t, frameEnc->m_reconPic->m_stride * (maxHeight + (2 * padY)));
 /*
 
-			#ifdef heap_array_bp
+		//@IDM	#ifdef heap_array_bp
 			  #ifdef APPROX_on
 			  add_approx((unsigned long)(*frameEnc->m_encData->m_meBuffer[i]), (unsigned long)(*frameEnc->m_encData->m_meBuffer[i] + (frameEnc->m_reconPic->m_stride * (maxHeight + (2 * padY)))));
 			  set_read_ber(1E-3);

@@ -41,6 +41,8 @@ static const struct option long_options[] =
 	{ "rber-me",     	required_argument, NULL, 0 },	//@@zatt
         { "wber-intra",     	required_argument, NULL, 0 }, 	//@@IDM
 	{ "rber-intra",     	required_argument, NULL, 0 },	//@@IDM
+        { "wber-trans",     	required_argument, NULL, 0 }, 	//@@IDM
+	{ "rber-trans",     	required_argument, NULL, 0 },	//@@IDM
     { "help",                 no_argument, NULL, 'h' },
     { "version",              no_argument, NULL, 'V' },
     { "asm",            required_argument, NULL, 0 },

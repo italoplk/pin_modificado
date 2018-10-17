@@ -789,6 +789,8 @@ static void dct16_altivec(const int16_t* src, int16_t* dst, intptr_t srcStride)
 
 static void dct32_altivec(const int16_t* src, int16_t* dst, intptr_t srcStride)
 {
+    
+    printf("\nENTROU ALTIVEC\n");
     const int shift_1st = 4 + X265_DEPTH - 8;
     const int shift_2nd = 11;
 

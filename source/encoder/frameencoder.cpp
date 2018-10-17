@@ -34,8 +34,8 @@
 #include "common.h"
 #include "slicetype.h"
 #include "nal.h"
-//@IDM
 //#include "approx.h"
+
 
 namespace X265_NS {
 void weightAnalyse(Slice& slice, Frame& frame, x265_param& param);
@@ -428,11 +428,11 @@ void FrameEncoder::compressFrame()
 
 	
 	#ifdef heap_array_bp
-	 #ifdef APPROX_on	
+		
 		//@@zatt - address structures
 		//unsigned long long start_approx_add[2][16], end_approx_add[2][16];
 	
-	 #endif
+	 
 	#endif 
 	
 	
@@ -449,33 +449,33 @@ void FrameEncoder::compressFrame()
             slice->m_refReconPicList[l][ref] = slice->m_refFrameList[l][ref]->m_reconPic;
             m_mref[l][ref].init(slice->m_refReconPicList[l][ref], w, *m_param);
 
-			//@@zatt
+            //@@zatt - add approximate memory to reference frames
+            //TENTAR COLOCAR OS & PRA PEGAR OS END!
 
-
-			/*#ifdef heap_array_bp
-			//  #ifdef APPROX_on
-
-				uint32_t numCuInWidth = (m_param->sourceWidth + m_param->maxCUSize - 1)  / m_param->maxCUSize;
-                                uint32_t numCuInHeight = (m_param->sourceHeight + m_param->maxCUSize - 1) / m_param->maxCUSize;
-				intptr_t stride = (numCuInWidth * m_param->maxCUSize) + ((m_param->maxCUSize + 32) << 1);
-				int maxHeight = numCuInHeight * m_param->maxCUSize;
-			
-				start_approx_add[l][ref] = (unsigned long long)(slice->m_refReconPicList[l][ref]->m_picOrg[0]);
-				end_approx_add[l][ref] = (unsigned long long)(slice->m_refReconPicList[l][ref]->m_picOrg[0] + (stride * (maxHeight + (m_param->maxCUSize + 16) * 2)));
-                              
-                                printf ("\nadd_approx %llu %llu", (unsigned long long)start_approx_add[l][ref], (unsigned long long)end_approx_add[l][ref]);
-                                
-			  	add_approx(start_approx_add[l][ref], end_approx_add[l][ref]);		
-			
-                                printf ("\nread_ber %f", (double)m_param->rber_me);
-                                printf ("\nwrite_ber %f", (double)m_param->wber_me); 
-                                
-			  	
-                                set_read_ber((double)m_param->rber_me);
-			  	set_write_ber((double)m_param->wber_me);
-
-			 // #endif
-			#endif */
+//			#ifdef heap_array_bp
+//			  #ifdef APPROX_on
+//
+//				uint32_t numCuInWidth = (m_param->sourceWidth + m_param->maxCUSize - 1)  / m_param->maxCUSize;
+//                                uint32_t numCuInHeight = (m_param->sourceHeight + m_param->maxCUSize - 1) / m_param->maxCUSize;
+//				intptr_t stride = (numCuInWidth * m_param->maxCUSize) + ((m_param->maxCUSize + 32) << 1);
+//				int maxHeight = numCuInHeight * m_param->maxCUSize;
+//			
+//				start_approx_add[l][ref] = (unsigned long long)(&slice->m_refReconPicList[l][ref]->m_picOrg[0]);
+//				end_approx_add[l][ref] = (unsigned long long)(&slice->m_refReconPicList[l][ref]->m_picOrg[0] + (stride * (maxHeight + (m_param->maxCUSize + 16) * 2)));
+//				//int temp = slice->m_refReconPicList[l][ref]->getLumaBufLen(m_param->sourceWidth, m_param->sourceHeight, m_param->internalCsp);
+//				//end_approx_add[l][ref] = (unsigned long long)(slice->m_refReconPicList[l][ref]->m_picBuf[0] + temp);
+//
+//			  	add_approx(start_approx_add[l][ref], end_approx_add[l][ref]);		
+//			
+//
+//			  	set_read_ber((double)m_param->rber_me);
+//                                
+//                               
+//			  	set_write_ber((double)m_param->wber_me);
+//                                printf ( "\n%s %llu %llu\n", "remove_approx", start_approx_add[l][ref], end_approx_add[l][ref]);
+//
+//			  #endif
+//			#endif 
         }
         if (m_param->analysisReuseMode == X265_ANALYSIS_SAVE && (bUseWeightP || bUseWeightB))
         {
@@ -1113,19 +1113,17 @@ void FrameEncoder::compressFrame()
             Frame *refpic = slice->m_refFrameList[l][ref];
             ATOMIC_DEC(&refpic->m_countRefEncoders);
 			
-			
-//@@zatt
+			 
+			//@@zatt - remove approximate memory
 
-
-			#ifdef heap_array_bp
-			  #ifdef APPROX_on
-			
-				//remove_approx(start_approx_add[l][ref], end_approx_add[l][ref]);
-                                //printf ("\nremove_approx %llu %llu", (unsigned long long) start_approx_add[l][ref], (unsigned long long)end_approx_add[l][ref]);
-                                
-			  #endif
-			#endif 			
-			
+//			#ifdef heap_array_bp
+//			  #ifdef APPROX_on
+//                                printf ( "\n%s %llu %llu\n", "remove_approx", start_approx_add[l][ref], end_approx_add[l][ref]); //@IDM
+//                                remove_approx(start_approx_add[l][ref], end_approx_add[l][ref]);
+//
+//			  #endif
+//			#endif 			
+//			
 				
 			
         }
