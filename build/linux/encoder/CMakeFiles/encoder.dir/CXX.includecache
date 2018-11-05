@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/./dynamicHDR10/hdr10plus.h
-stdint.h
--
-
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/./profile/PPA/ppa.h
 ../cpuEvents.h
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/./profile/cpuEvents.h
@@ -96,10 +92,6 @@ slice.h
 mv.h
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/mv.h
 
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/common/deblock.h
-common.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/common/common.h
-
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/frame.h
 common.h
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/common.h
@@ -135,12 +127,6 @@ common.h
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/common.h
 primitives.h
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/primitives.h
-
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/common/param.h
-
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/common/piclist.h
-common.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/common/common.h
 
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/picyuv.h
 common.h
@@ -226,12 +212,6 @@ common.h
 threading.h
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/threading.h
 
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/common/wavefront.h
-common.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/common/common.h
-threadpool.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/common/threadpool.h
-
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/common/winxp.h
 intrin.h
 -
@@ -268,24 +248,6 @@ threading.h
 mv.h
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/mv.h
 
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/encoder.h
-common.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/common.h
-slice.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/slice.h
-threading.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/threading.h
-scalinglist.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/scalinglist.h
-x265.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/x265.h
-nal.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/nal.h
-framedata.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/framedata.h
-dynamicHDR10/hdr10plus.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/dynamicHDR10/hdr10plus.h
-
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/entropy.h
 common.h
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/common.h
@@ -300,68 +262,6 @@ contexts.h
 slice.h
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/slice.h
 
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/frameencoder.cpp
-common.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/common.h
-frame.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/frame.h
-framedata.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/framedata.h
-wavefront.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/wavefront.h
-param.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/param.h
-encoder.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/encoder.h
-frameencoder.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/frameencoder.h
-common.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/common.h
-slicetype.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/slicetype.h
-nal.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/nal.h
-
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/frameencoder.h
-common.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/common.h
-wavefront.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/wavefront.h
-bitstream.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/bitstream.h
-frame.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/frame.h
-picyuv.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/picyuv.h
-md5.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/md5.h
-analysis.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/analysis.h
-sao.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/sao.h
-entropy.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/entropy.h
-framefilter.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/framefilter.h
-ratecontrol.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/ratecontrol.h
-reference.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/reference.h
-nal.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/nal.h
-
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/framefilter.h
-common.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/common.h
-frame.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/frame.h
-deblock.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/deblock.h
-sao.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/sao.h
-threadpool.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/threadpool.h
-
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/motion.h
 primitives.h
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/primitives.h
@@ -373,18 +273,6 @@ bitcost.h
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/bitcost.h
 yuv.h
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/yuv.h
-
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/nal.h
-common.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/common.h
-x265.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/x265.h
-
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/ratecontrol.h
-common.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/common.h
-sei.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/sei.h
 
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/rdcost.h
 common.h
@@ -402,13 +290,25 @@ lowres.h
 mv.h
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/mv.h
 
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/sao.h
+/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/search.cpp
 common.h
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/common.h
-frame.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/frame.h
+primitives.h
+/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/primitives.h
+picyuv.h
+/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/picyuv.h
+cudata.h
+/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/cudata.h
+search.h
+/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/search.h
 entropy.h
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/entropy.h
+rdcost.h
+/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/rdcost.h
+analysis.h
+/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/analysis.h
+framedata.h
+/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/framedata.h
 
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/search.h
 common.h
@@ -431,26 +331,6 @@ entropy.h
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/entropy.h
 motion.h
 /home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/motion.h
-
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/sei.h
-common.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/common.h
-bitstream.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/bitstream.h
-slice.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/slice.h
-
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/slicetype.h
-common.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/common.h
-slice.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/slice.h
-motion.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/motion.h
-piclist.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/piclist.h
-threadpool.h
-/home/italo/Documentos/pin-memapprox/x265_2.5/source/encoder/threadpool.h
 
 x265_config.h
 

@@ -74,7 +74,7 @@ public:
 
     ShortYuv  m_predShortYuv[2]; /* temporary storage for weighted prediction */
 //@IDM
-//        unsigned long long start_approx_add[258], end_approx_add[258];
+        unsigned long long start_approx_add, end_approx_add;
         
     // Unfiltered/filtered neighbours of the current partition.
     pixel     intraNeighbourBuf[2][258];

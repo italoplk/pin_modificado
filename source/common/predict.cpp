@@ -32,7 +32,8 @@
 
 //@IDM
 //#include "approx.h"
-
+extern float  rber_intra;
+extern float  wber_intra;
 
 using namespace X265_NS;
 
@@ -62,15 +63,15 @@ inline pixel weightBidir(int w0, int16_t P0, int w1, int16_t P1, int round, int 
 
 Predict::Predict()
 {
-    //@IDM
-//    unsigned long long start_approx_add[258], end_approx_add[258];
-//    start_approx_add[0] = (unsigned long long)(intraNeighbourBuf[0]);
-//    end_approx_add[0] = (unsigned long long)(intraNeighbourBuf[0]+257);
+//    //@IDM
 //
-//    add_approx((start_approx_add[0]), (end_approx_add[0]));		 
+//    start_approx_add = (unsigned long long)(&intraNeighbourBuf);
+//    end_approx_add = (unsigned long long)(&intraNeighbourBuf+1);
 //
-//    set_read_ber((double)0.0);
-//    set_write_ber((double)0.1);
+//    add_approx((start_approx_add), (end_approx_add));		 
+//
+//    set_read_ber((double)        rber_intra);
+//    set_write_ber((double)wber_intra);
 }
 
 Predict::~Predict()
@@ -79,7 +80,7 @@ Predict::~Predict()
     m_predShortYuv[1].destroy();
     //@IDM
  
-//    remove_approx((start_approx_add[0]), (end_approx_add[0]));
+//    remove_approx((start_approx_add), (end_approx_add));
 }
 
 bool Predict::allocBuffers(int csp)

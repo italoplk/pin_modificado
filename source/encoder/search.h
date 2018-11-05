@@ -252,9 +252,7 @@ class Search : public Predict
 {
 public:
    
-    //@IDM
-    unsigned long long start_approx_add[258], end_approx_add[258];    
-      unsigned long long start_approx_add_filtro[258], end_approx_add_filtro[258];    
+  
 
     
     

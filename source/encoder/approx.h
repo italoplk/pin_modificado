@@ -15,7 +15,7 @@ unsigned long long __attribute__((optimize("O0"))) add_approx(unsigned long long
 	//debug = fopen("/tmp/memapproxlog", "w");
 	//fprintf(debug, "%s %llu %llu\n", "add_approx", start_address, end_address);
 	//fclose(debug);
-        printf("\n%s %llu %llu\n", "add_approx", start_address, end_address); //@IDM
+        //printf("\n%s %llu %llu\n", "add_approx", start_address, end_address); //@IDM
 	return end_address - start_address;
 }
 

@@ -31,10 +31,11 @@
 #include "primitives.h"
 #include "contexts.h"   // costCoeffNxN_c
 #include "threading.h"  // CLZ
-#include "approx.h"
-//#include "param.h"
+
+
 using namespace X265_NS;
 //@IDM
+#include "approx.h"
 extern float wber_trans;
 extern float rber_trans;
 //approx *aproximation = new approx();
@@ -482,17 +483,20 @@ static void dct4_c(const int16_t* src, int16_t* dst, intptr_t srcStride)
     }
 
     //@IDM
-    
+    //copiar para as outras transformadas.
     unsigned long long start_approx_add, end_approx_add;
     start_approx_add = (unsigned long long)(&coef[0]);
-    end_approx_add = (unsigned long long)(&coef[15] + sizeof(int16_t));		
-
-    add_approx(start_approx_add, end_approx_add);
+    end_approx_add = (unsigned long long)(&coef[15] + sizeof(int16_t));
+   //TESTAAAAARR
+    start_approx_add = (unsigned long long)(&coef);
+    end_approx_add = (unsigned long long)(&coef+1);
+//
+//    add_approx(start_approx_add, end_approx_add);
     set_read_ber(rber_trans);                         
     set_write_ber(wber_trans);
-        
+//        
     partialButterfly4(block, coef, shift_1st, 4);
-    
+//    
     remove_approx(start_approx_add, end_approx_add);
 
     
@@ -515,15 +519,15 @@ static void dct8_c(const int16_t* src, int16_t* dst, intptr_t srcStride)
 
     //@@IDM - address structures
      unsigned long long start_approx_add, end_approx_add;
-     start_approx_add = (unsigned long long)(&coef[0]);
-     end_approx_add = (unsigned long long)(&coef[0]+64);		
+     start_approx_add = (unsigned long long)(&coef);
+     end_approx_add = (unsigned long long)(&coef+1);		
 
      add_approx(start_approx_add, end_approx_add);
      set_read_ber(rber_trans);                         
      set_write_ber(wber_trans);
-        
+//        
      partialButterfly8(block, coef, shift_1st, 8);
-    
+//    
     remove_approx(start_approx_add, end_approx_add);
 
     
@@ -545,15 +549,15 @@ static void dct16_c(const int16_t* src, int16_t* dst, intptr_t srcStride)
     
  //@@IDM - address structures
     unsigned long long start_approx_add, end_approx_add;
-    start_approx_add = (unsigned long long)(&coef[0]);
-    end_approx_add = (unsigned long long)(&coef[0]+256);		
+    start_approx_add = (unsigned long long)(&coef);
+    end_approx_add = (unsigned long long)(&coef+1);		
 
     add_approx(start_approx_add, end_approx_add);
     set_read_ber(rber_trans);                         
     set_write_ber(wber_trans);
         
     partialButterfly16(block, coef, shift_1st, 16);
-    
+//    
     remove_approx(start_approx_add, end_approx_add);
     
     partialButterfly16(coef, dst, shift_2nd, 16);
@@ -580,17 +584,17 @@ static void dct32_c(const int16_t* src, int16_t* dst, intptr_t srcStride)
  
     //@@IDM - address structures
     unsigned long long start_approx_add, end_approx_add;
-    start_approx_add = (unsigned long long)(&coef[0]);
-    end_approx_add = (unsigned long long)(&coef[0]+1024);		
+    start_approx_add = (unsigned long long)(&coef);
+    end_approx_add = (unsigned long long)(&coef+1);		
 
     add_approx(start_approx_add, end_approx_add);
     set_read_ber(rber_trans);                         
     set_write_ber(wber_trans);
-
+//
     partialButterfly32(block, coef, shift_1st, 32);
-
+//
     remove_approx(start_approx_add, end_approx_add);
-    
+//    
     partialButterfly32(coef, dst, shift_2nd, 32);
 }
 

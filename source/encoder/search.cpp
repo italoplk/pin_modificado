@@ -33,7 +33,7 @@
 
 #include "analysis.h"  // TLD
 #include "framedata.h"
-#include "param.h"
+
 
 //@IDM
 //#include "approx.h"
@@ -74,25 +74,9 @@ Search::Search()
     m_maxTUDepth = -1;
    
 //    @IDM
-#ifdef heap_array_bp
-    #ifdef APPROX_on
-//        start_approx_add[0] = (unsigned long long)(intraNeighbourBuf[0]);
-//        end_approx_add[0] = (unsigned long long)(intraNeighbourBuf[0]+257);
-//      //  start_approx_add_filtro[0] = (unsigned long long)(intraNeighbourBuf[1]);
-//      //  end_approx_add_filtro[0] = (unsigned long long)(start_approx_add_filtro[0]+257);
-//       // printf("\n%G\n",(double)m_param->wber_me);
-//        
-//        add_approx((start_approx_add[0]), (end_approx_add[0]));		 
-//        //add_approx((start_approx_add_filtro[0]), (end_approx_add_filtro[0]));
-//        
-//        
-////        set_read_ber((double)0.0);
-////        set_write_ber((double)0.1);
-//        set_write_ber((double)m_param->wber_me);
-//        set_read_ber((double)m_param->rber_me);
-        
-    #endif
-#endif
+
+
+
 
 }
 
@@ -102,8 +86,9 @@ Search::~Search()
     
 #ifdef heap_array_bp
     #ifdef APPROX_on
-    remove_approx((start_approx_add[0]), (end_approx_add[0]));
-    remove_approx((start_approx_add_filtro[0]), (end_approx_add_filtro[0]));
+
+  // remove_approx((start_approx_add), (end_approx_add));
+
     
     #endif
 #endif
@@ -133,45 +118,18 @@ Search::~Search()
 
 bool Search::initSearch(const x265_param& param, ScalingList& scalingList)
 {
-        //@IDM
-//@IDM
-    //unsigned long long start_approx_add[258], end_approx_add[258];
-//    start_approx_add[0] = (unsigned long long)(intraNeighbourBuf[0]);
-//    end_approx_add[0] = (unsigned long long)(intraNeighbourBuf[0]+257);
-//
-//    add_approx((start_approx_add[0]), (end_approx_add[0]));		 
-//
-//    set_read_ber((double)0.0);
-//    set_write_ber((double)0.1);
-//    
+
+
+  
     uint32_t maxLog2CUSize = g_log2Size[param.maxCUSize];
     m_param = &param;
     m_bFrameParallel = param.frameNumThreads > 1;
     m_numLayers = g_log2Size[param.maxCUSize] - 2;
 
     
-    
-    //@IDM
-    
-   /* #ifdef heap_array_bp
-    #ifdef APPROX_on
-        start_approx_add[0] = (unsigned long long)(intraNeighbourBuf[0]);
-        end_approx_add[0] = (unsigned long long)(intraNeighbourBuf[0]+257);
-        start_approx_add_filtro[0] = (unsigned long long)(intraNeighbourBuf[1]);
-       end_approx_add_filtro[0] = (unsigned long long)(start_approx_add_filtro[0]+257);
-       // printf("\n%G\n",(double)m_param->wber_me);
-        
-        add_approx((start_approx_add[0]), (end_approx_add[0]));		 
-        add_approx((start_approx_add_filtro[0]), (end_approx_add_filtro[0]));
-        
-        
-//        set_read_ber((double)0.0);
-//        set_write_ber((double)0.1);
-        set_write_ber((double)m_param->wber_intra);
-        set_read_ber((double)m_param->rber_intra);
-        
-    #endif
-#endif*/
+ //@IDM
+     
+   
     
     
     m_rdCost.setPsyRdScale(param.psyRd);

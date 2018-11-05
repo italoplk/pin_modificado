@@ -31,6 +31,8 @@
 
 	float wber_trans; //@@IDM
 	float rber_trans; //@@IDM
+        float wber_intra; //@@IDM
+	float rber_intra; //@@IDM
 #if _MSC_VER
 #pragma warning(disable: 4996) // POSIX functions are just fine, thanks
 #pragma warning(disable: 4706) // assignment within conditional
@@ -108,11 +110,13 @@ void x265_param_default(x265_param* param)
 	
 	param->wber_me = 0; //@@zatt
 	param->rber_me = 0; //@@zatt
-        param->wber_intra = 0; //@@IDM
-	param->rber_intra = 0; //@@IDM3
+        wber_intra = 0; //@@IDM
+	rber_intra = 0; //@@IDM3
         //@@IDM
 	rber_trans = 0;
         wber_trans = 0;
+        rber_intra = 0;
+        wber_intra = 0;
         
         
     /* Applying default values to all elements in the param structure */
@@ -308,8 +312,8 @@ int x265_param_default_preset(x265_param* param, const char* preset, const char*
 
 	param->wber_me = 0; //@@zatt
 	param->rber_me = 0; //@@zatt
-        param->wber_intra = 0; //@IDM
-	param->rber_intra = 0; //@IDM
+       wber_intra = 0; //@IDM
+	rber_intra = 0; //@IDM
 	
     if (preset)
     {
@@ -608,8 +612,8 @@ int x265_param_parse(x265_param* p, const char* name, const char* value)
     if (0) ;
 	OPT("wber-me") p->wber_me = atof(value);	//@@zatt
 	OPT("rber-me") p->rber_me = atof(value);	//@@zatt
-        OPT("wber-intra") p->wber_intra = atof(value);	//@@IDM
-	OPT("rber-intra") p->rber_intra = atof(value);	//@@IDM
+        OPT("wber-intra") wber_intra = atof(value);	//@@IDM
+	OPT("rber-intra") rber_intra = atof(value);	//@@IDM
        OPT("wber-trans") wber_trans = atof(value);	//@@zatt
 	OPT("rber-trans") rber_trans = atof(value);	//@@zatt
         
